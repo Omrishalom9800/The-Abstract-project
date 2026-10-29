@@ -64,9 +64,10 @@ public class otherFunctions {
     }
 
     public static void playMysticalMagic(){ // song by Benson Boone
-        print("Mystical magical by Benson Boone:");
-        pause(1000);
-        print("There's nothing colder than your shoulder\n" +
+
+        print("Mystical magical:");
+        pause(2500);
+        print("'There's nothing colder than your shoulder\n" +
                 "When you're dragging me along like you do\n" +
                 "Like you do\n" +
                 "And then you switch up with no warning\n" +
@@ -116,7 +117,9 @@ public class otherFunctions {
                 "Oh, baby, 'cause once you know\n" +
                 "Once you know\n" +
                 "Mystical, magical\n" +
-                "Oh, baby, it's mystical, magical");
+                "Oh, baby, it's mystical, magical'");
+        pause(500);
+        print("by Benson Boone");
     }
 
 

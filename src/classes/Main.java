@@ -10,7 +10,7 @@ void main() {
 
         ArrayList<person> guys = new ArrayList<>();
 
-        for (int i = 0; i < 4; i++) { // make four random fighters out of three classes all under person
+        for (int i = 0; i < 6; i++) { // makes six random fighters out of three classes all under person
             int rand = randomNumber(0, 3);
 
             if (rand == 1) {
