@@ -63,6 +63,23 @@ public class otherFunctions {
         }
     }
 
+
+    public static String personToCsv(ParentAbstracts.person dude){
+        StringBuilder csvFormated = new StringBuilder(500);
+
+        // store the main stuff
+        csvFormated.append(dude.getName());//name
+        csvFormated.append(",").append(dude.getType());//type
+        csvFormated.append(",").append(dude.getWeight());//weight
+        csvFormated.append(",").append(dude.getSpeed());//speed
+
+        if (dude instanceof ParentAbstracts.magicMan) { // if they have the magic var, Store it too!
+            csvFormated.append(",").append(((ParentAbstracts.magicMan) dude).getMagics());
+        }
+
+        return csvFormated.toString();
+    }
+
     public static void playMysticalMagic(){ // song by Benson Boone
 
         print("Mystical magical:");

@@ -51,8 +51,8 @@ public class ParentAbstracts {
         abstract public void coooolMagiccccThingggg();
 
         //gets and sets
-        public void setPaperWorkCount(int newPaperCount){magics = newPaperCount;}
-        public int getPaperWorkCount(){return magics;}
+        public void setMagics(int magic){magics = magic;}
+        public int getMagics(){return magics;}
 
     }
 
